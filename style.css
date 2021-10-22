@@ -20,11 +20,11 @@
     text-align: center;
 }
 .x{
-    background-image: url(/x.png);
+    background-image: url(x.png);
     height: 100px;
 }
 .o{
-    background-image: url(/o.png);
+    background-image: url(o.png);
     height: 100px;
 }
 img{
