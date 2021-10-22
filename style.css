@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#winner{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
+    margin: 30px 0;
+}
+#players {
+    display: flex;
+    justify-content: center;
+}
+#p1{
+    margin-right: 150px;
+}
+#xo{
+    text-align: center;
+}
+.x{
+    background-image: url(/x.png);
+    height: 100px;
+}
+.o{
+    background-image: url(/o.png);
+    height: 100px;
+}
+img{
+    margin: 10px;
+    border-radius: 5px;
+}
+img:nth-child(1){
+    margin-right: 80px;
+    border: 2px solid green;
+}
+#container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    width: max-content;
+}
+.box{
+    background-size: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.box:nth-child(-n+6){
+    border-bottom: 2px solid black;
+}
+.br{
+    border-right:2px solid black ;
+}
+#line{
+    height: 5px;
+}
